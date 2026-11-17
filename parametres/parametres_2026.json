@@ -1,0 +1,189 @@
+{
+  "version": "2026-11-17",
+  "impot_revenu": {
+    "bareme_tranches": {
+      "valeur": [
+        [
+          11600,
+          0.0
+        ],
+        [
+          29579,
+          0.11
+        ],
+        [
+          84577,
+          0.3
+        ],
+        [
+          181917,
+          0.41
+        ],
+        [
+          null,
+          0.45
+        ]
+      ],
+      "unite": "plafond de tranche par part (euros), taux",
+      "date_debut": "2026-02-19",
+      "source": "Service-Public, loi de finances pour 2026 (revenus 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "plafond_demi_part": {
+      "valeur": 1791,
+      "unite": "euros par demi-part",
+      "date_debut": null,
+      "source": "Barème 2025 (revenus 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": null,
+      "a_verifier": true,
+      "note": "Valeur du barème précédent : vérifier la valeur revalorisée pour les revenus 2025"
+    },
+    "decote_seuil_seul": {
+      "valeur": 1964,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Barème 2025 (revenus 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": null,
+      "a_verifier": true
+    },
+    "decote_montant_seul": {
+      "valeur": 889,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Barème 2025 (revenus 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": null,
+      "a_verifier": true
+    },
+    "decote_seuil_couple": {
+      "valeur": 3249,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Barème 2025 (revenus 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": null,
+      "a_verifier": true
+    },
+    "decote_montant_couple": {
+      "valeur": 1470,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Barème 2025 (revenus 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": null,
+      "a_verifier": true
+    },
+    "decote_taux": {
+      "valeur": 0.4525,
+      "unite": "taux",
+      "date_debut": null,
+      "source": "Barème 2025 (revenus 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419",
+      "date_verification": null,
+      "a_verifier": true
+    }
+  },
+  "epargne_reglementee": {
+    "livret_a_taux": {
+      "valeur": 0.017,
+      "unite": "taux annuel net",
+      "date_debut": "2026-08-01",
+      "source": "Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15818",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "livret_a_plafond_versements": {
+      "valeur": 22950,
+      "unite": "euros",
+      "date_debut": "2013-01-01",
+      "source": "Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2365",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "ldds_taux": {
+      "valeur": 0.017,
+      "unite": "taux annuel net",
+      "date_debut": "2026-08-01",
+      "source": "Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15818",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "ldds_plafond_versements": {
+      "valeur": 12000,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2368",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "lep_taux": {
+      "valeur": 0.025,
+      "unite": "taux annuel net",
+      "date_debut": "2026-08-01",
+      "source": "Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15818",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    }
+  },
+  "enveloppes": {
+    "pea_plafond_versements": {
+      "valeur": 150000,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2385",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    }
+  },
+  "fiscalite_placements": {
+    "pfu_taux_global": {
+      "valeur": 0.314,
+      "unite": "taux (12,8 % d'impôt + 18,6 % de prélèvements sociaux)",
+      "date_debut": "2026-01-01",
+      "source": "Entreprendre Service-Public",
+      "url": "https://entreprendre.service-public.gouv.fr",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    }
+  },
+  "regles_conseil": {
+    "taux_endettement_max": {
+      "valeur": 0.35,
+      "unite": "part des revenus",
+      "date_debut": null,
+      "source": "Recommandation du Haut Conseil de stabilité financière (HCSF)",
+      "url": "https://www.economie.gouv.fr/hcsf",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "ifi_seuil_patrimoine_immobilier_net": {
+      "valeur": 1300000,
+      "unite": "euros",
+      "date_debut": null,
+      "source": "Service-Public (impôt sur la fortune immobilière)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F563",
+      "date_verification": "2026-11-17",
+      "a_verifier": false
+    },
+    "epargne_precaution_mois_depenses": {
+      "valeur": 3,
+      "unite": "mois de dépenses essentielles",
+      "date_debut": null,
+      "source": "Règle de bonne pratique du conseil (choix du projet)",
+      "url": null,
+      "date_verification": "2026-11-17",
+      "a_verifier": false,
+      "note": "Paramètre métier, à adapter à la situation du client"
+    }
+  }
+}
