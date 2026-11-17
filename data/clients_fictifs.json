@@ -1,0 +1,406 @@
+[
+  {
+    "id_client": "C001",
+    "nom": "Lucas Bernard",
+    "age": 28,
+    "situation_familiale": "célibataire",
+    "enfants_a_charge": 0,
+    "statut": "actif",
+    "revenu_imposable": 32000,
+    "revenu_net_mensuel": 2950,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 1500,
+    "mensualites_credits": 0,
+    "capacite_epargne_mensuelle": 600,
+    "fiscalite": {
+      "impot_revenu_annuel": 2765,
+      "nombre_parts": 1,
+      "revenu_fiscal_reference": 32000
+    },
+    "epargne": {
+      "compte_courant": 2500,
+      "livret_a": 8000
+    },
+    "immobilier": [],
+    "objectif": "constituer une épargne de précaution, puis investir",
+    "horizon_annees": 10,
+    "profil_risque": "dynamique",
+    "connaissances": "débutant",
+    "perte_max_acceptable_pct": 20
+  },
+  {
+    "id_client": "C002",
+    "nom": "Claire et Thomas Martin",
+    "age": 45,
+    "situation_familiale": "marié",
+    "enfants_a_charge": 2,
+    "statut": "actif",
+    "revenu_imposable": 62000,
+    "revenu_net_mensuel": 5740,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 3200,
+    "mensualites_credits": 1100,
+    "capacite_epargne_mensuelle": 600,
+    "fiscalite": {
+      "impot_revenu_annuel": 2925,
+      "nombre_parts": 3,
+      "revenu_fiscal_reference": 62000
+    },
+    "epargne": {
+      "compte_courant": 4000,
+      "livret_a": 15000,
+      "ldds": 8000,
+      "assurance_vie": 40000
+    },
+    "immobilier": [
+      {
+        "type_bien": "résidence principale",
+        "valeur_estimee": 320000,
+        "capital_restant_du": 140000,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 1400
+      }
+    ],
+    "objectif": "préparer la retraite",
+    "horizon_annees": 20,
+    "profil_risque": "prudent",
+    "connaissances": "intermédiaire",
+    "perte_max_acceptable_pct": 5
+  },
+  {
+    "id_client": "C003",
+    "nom": "Nadia Benali",
+    "age": 38,
+    "situation_familiale": "pacsé",
+    "enfants_a_charge": 1,
+    "statut": "actif",
+    "revenu_imposable": 48000,
+    "revenu_net_mensuel": 4440,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 2300,
+    "mensualites_credits": 0,
+    "capacite_epargne_mensuelle": 800,
+    "fiscalite": {
+      "impot_revenu_annuel": 1607,
+      "nombre_parts": 2.5,
+      "revenu_fiscal_reference": 48000
+    },
+    "epargne": {
+      "compte_courant": 3000,
+      "livret_a": 22950,
+      "assurance_vie": 10000,
+      "pea": 5000
+    },
+    "immobilier": [],
+    "objectif": "acheter sa résidence principale",
+    "horizon_annees": 3,
+    "profil_risque": "équilibré",
+    "connaissances": "intermédiaire",
+    "perte_max_acceptable_pct": 10
+  },
+  {
+    "id_client": "C004",
+    "nom": "Jean-Pierre Durand",
+    "age": 67,
+    "situation_familiale": "marié",
+    "enfants_a_charge": 0,
+    "statut": "retraité",
+    "revenu_imposable": 38000,
+    "revenu_net_mensuel": 3520,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 2000,
+    "mensualites_credits": 600,
+    "capacite_epargne_mensuelle": 300,
+    "fiscalite": {
+      "impot_revenu_annuel": 928,
+      "nombre_parts": 2,
+      "revenu_fiscal_reference": 38000
+    },
+    "epargne": {
+      "compte_courant": 6000,
+      "livret_a": 22950,
+      "assurance_vie": 180000,
+      "pea": 60000
+    },
+    "immobilier": [
+      {
+        "type_bien": "résidence principale",
+        "valeur_estimee": 450000,
+        "capital_restant_du": 0,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 1800
+      },
+      {
+        "type_bien": "locatif",
+        "valeur_estimee": 180000,
+        "capital_restant_du": 40000,
+        "loyers_annuels_percus": 8400,
+        "taxe_fonciere_annuelle": 1100
+      }
+    ],
+    "objectif": "transmettre son patrimoine à ses enfants",
+    "horizon_annees": 15,
+    "profil_risque": "prudent",
+    "connaissances": "expert",
+    "perte_max_acceptable_pct": 5
+  },
+  {
+    "id_client": "C005",
+    "nom": "Sophie Lefèvre",
+    "age": 52,
+    "situation_familiale": "divorcé",
+    "enfants_a_charge": 1,
+    "statut": "actif",
+    "revenu_imposable": 85000,
+    "revenu_net_mensuel": 7870,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 3500,
+    "mensualites_credits": 900,
+    "capacite_epargne_mensuelle": 1500,
+    "fiscalite": {
+      "impot_revenu_annuel": 14213,
+      "nombre_parts": 2,
+      "revenu_fiscal_reference": 85000
+    },
+    "epargne": {
+      "compte_courant": 8000,
+      "assurance_vie": 70000,
+      "per": 15000,
+      "pea": 30000
+    },
+    "immobilier": [
+      {
+        "type_bien": "résidence principale",
+        "valeur_estimee": 380000,
+        "capital_restant_du": 60000,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 1600
+      }
+    ],
+    "objectif": "réduire ses impôts et préparer sa retraite",
+    "horizon_annees": 12,
+    "profil_risque": "équilibré",
+    "connaissances": "expert",
+    "perte_max_acceptable_pct": 15
+  },
+  {
+    "id_client": "C006",
+    "nom": "Karim Haddad",
+    "age": 33,
+    "situation_familiale": "célibataire",
+    "enfants_a_charge": 0,
+    "statut": "actif",
+    "revenu_imposable": 24000,
+    "revenu_net_mensuel": 2220,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 1600,
+    "mensualites_credits": 0,
+    "capacite_epargne_mensuelle": 150,
+    "fiscalite": {
+      "impot_revenu_annuel": 1109,
+      "nombre_parts": 1,
+      "revenu_fiscal_reference": 24000
+    },
+    "epargne": {
+      "compte_courant": 1200,
+      "livret_a": 2000
+    },
+    "immobilier": [],
+    "objectif": "se constituer une épargne de précaution",
+    "horizon_annees": 2,
+    "profil_risque": "prudent",
+    "connaissances": "débutant",
+    "perte_max_acceptable_pct": 0
+  },
+  {
+    "id_client": "C007",
+    "nom": "Amina Diallo",
+    "age": 34,
+    "situation_familiale": "célibataire",
+    "enfants_a_charge": 3,
+    "statut": "actif",
+    "revenu_imposable": 26000,
+    "revenu_net_mensuel": 2400,
+    "prestations_sociales_mensuelles": 450,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 2300,
+    "mensualites_credits": 0,
+    "capacite_epargne_mensuelle": 150,
+    "fiscalite": {
+      "impot_revenu_annuel": 0,
+      "nombre_parts": 3.5,
+      "revenu_fiscal_reference": 26000
+    },
+    "epargne": {
+      "compte_courant": 800,
+      "livret_a": 1500
+    },
+    "immobilier": [],
+    "objectif": "constituer une épargne de précaution et préparer les études des enfants",
+    "horizon_annees": 8,
+    "profil_risque": "prudent",
+    "connaissances": "débutant",
+    "perte_max_acceptable_pct": 0
+  },
+  {
+    "id_client": "C008",
+    "nom": "Marc Rousseau",
+    "age": 41,
+    "situation_familiale": "divorcé",
+    "enfants_a_charge": 0,
+    "statut": "actif",
+    "revenu_imposable": 45000,
+    "revenu_net_mensuel": 4150,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 6000,
+    "depenses_essentielles_mensuelles": 2200,
+    "mensualites_credits": 950,
+    "capacite_epargne_mensuelle": 500,
+    "fiscalite": {
+      "impot_revenu_annuel": 4865,
+      "nombre_parts": 1,
+      "revenu_fiscal_reference": 39000
+    },
+    "epargne": {
+      "compte_courant": 2000,
+      "livret_a": 10000,
+      "pea": 8000
+    },
+    "immobilier": [
+      {
+        "type_bien": "résidence principale",
+        "valeur_estimee": 210000,
+        "capital_restant_du": 95000,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 1000
+      }
+    ],
+    "objectif": "réduire ses impôts et épargner pour ses enfants",
+    "horizon_annees": 10,
+    "profil_risque": "équilibré",
+    "connaissances": "intermédiaire",
+    "perte_max_acceptable_pct": 10
+  },
+  {
+    "id_client": "C009",
+    "nom": "Monique Lambert",
+    "age": 74,
+    "situation_familiale": "veuf",
+    "enfants_a_charge": 0,
+    "statut": "retraité",
+    "revenu_imposable": 22000,
+    "revenu_net_mensuel": 2040,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 1300,
+    "mensualites_credits": 0,
+    "capacite_epargne_mensuelle": 250,
+    "fiscalite": {
+      "impot_revenu_annuel": 789,
+      "nombre_parts": 1,
+      "revenu_fiscal_reference": 22000
+    },
+    "epargne": {
+      "compte_courant": 5000,
+      "livret_a": 22950,
+      "ldds": 12000,
+      "assurance_vie": 95000
+    },
+    "immobilier": [
+      {
+        "type_bien": "résidence principale",
+        "valeur_estimee": 260000,
+        "capital_restant_du": 0,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 1300
+      },
+      {
+        "type_bien": "résidence secondaire",
+        "valeur_estimee": 150000,
+        "capital_restant_du": 0,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 900
+      }
+    ],
+    "objectif": "transmettre à ses petits-enfants",
+    "horizon_annees": 10,
+    "profil_risque": "prudent",
+    "connaissances": "intermédiaire",
+    "perte_max_acceptable_pct": 5
+  },
+  {
+    "id_client": "C010",
+    "nom": "Henri Moreau",
+    "age": 47,
+    "situation_familiale": "veuf",
+    "enfants_a_charge": 2,
+    "statut": "actif",
+    "revenu_imposable": 52000,
+    "revenu_net_mensuel": 4800,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 2900,
+    "mensualites_credits": 850,
+    "capacite_epargne_mensuelle": 500,
+    "fiscalite": {
+      "impot_revenu_annuel": 1328,
+      "nombre_parts": 3,
+      "revenu_fiscal_reference": 52000
+    },
+    "epargne": {
+      "compte_courant": 3000,
+      "livret_a": 15000,
+      "assurance_vie": 30000
+    },
+    "immobilier": [
+      {
+        "type_bien": "résidence principale",
+        "valeur_estimee": 300000,
+        "capital_restant_du": 120000,
+        "loyers_annuels_percus": 0,
+        "taxe_fonciere_annuelle": 1500
+      }
+    ],
+    "objectif": "financer les études des enfants",
+    "horizon_annees": 6,
+    "profil_risque": "équilibré",
+    "connaissances": "intermédiaire",
+    "perte_max_acceptable_pct": 10
+  },
+  {
+    "id_client": "C011",
+    "nom": "Françoise Petit",
+    "age": 69,
+    "situation_familiale": "célibataire",
+    "enfants_a_charge": 0,
+    "statut": "retraité",
+    "revenu_imposable": 16000,
+    "revenu_net_mensuel": 1480,
+    "prestations_sociales_mensuelles": 0,
+    "pension_alimentaire_versee_annuelle": 0,
+    "depenses_essentielles_mensuelles": 1150,
+    "mensualites_credits": 0,
+    "capacite_epargne_mensuelle": 100,
+    "fiscalite": {
+      "impot_revenu_annuel": 0,
+      "nombre_parts": 1,
+      "revenu_fiscal_reference": 16000
+    },
+    "epargne": {
+      "compte_courant": 1500,
+      "livret_a": 6000
+    },
+    "immobilier": [],
+    "objectif": "garder une épargne disponible pour les imprévus",
+    "horizon_annees": 3,
+    "profil_risque": "prudent",
+    "connaissances": "débutant",
+    "perte_max_acceptable_pct": 0
+  }
+]
