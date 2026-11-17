@@ -1,0 +1,10 @@
+# Fichiers techniques de Python
+__pycache__/
+*.pyc
+
+# Sauvegardes de Jupyter
+.ipynb_checkpoints/
+
+# Environnement virtuel et secrets
+.venv/
+.env
