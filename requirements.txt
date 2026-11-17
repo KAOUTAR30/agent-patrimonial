@@ -1,0 +1,15 @@
+# Construction de l'agent
+langgraph==1.2.11
+langchain-core==1.6.3
+langchain-ollama==1.1.0
+
+# Validation de la structure des donn?es
+pydantic==2.13.5
+
+# Donn?es et interface
+pandas>=2.0
+streamlit>=1.30
+
+# Tests et configuration
+pytest>=8.0
+python-dotenv>=1.0
