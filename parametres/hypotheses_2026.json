@@ -1,0 +1,183 @@
+{
+  "version": "2026-11-27",
+  "inflation": {
+    "inflation_annuelle": {
+      "valeur": 0.02,
+      "unite": "taux annuel",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false,
+      "note": "Hypothèse de long terme, proche de la cible de la BCE"
+    }
+  },
+  "supports": {
+    "livret": {
+      "valeur": {
+        "risque": "aucun",
+        "capital_garanti": true,
+        "rendement_garanti": false,
+        "liquidite": "immédiate",
+        "horizon_conseille": 0,
+        "rendement_scenarios": null
+      },
+      "unite": "caractéristiques",
+      "source": "Taux réglementé lu dans parametres_2026.json",
+      "date_verification": "2026-11-27",
+      "a_verifier": false,
+      "note": "Le taux est garanti à un instant donné, mais révisable deux fois par an"
+    },
+    "fonds_euros": {
+      "valeur": {
+        "risque": "faible",
+        "capital_garanti": true,
+        "rendement_garanti": false,
+        "liquidite": "quelques jours",
+        "horizon_conseille": 8,
+        "rendement_scenarios": {
+          "prudent": 0.015,
+          "central": 0.025,
+          "dynamique": 0.03
+        }
+      },
+      "unite": "caractéristiques et rendements annuels bruts",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false
+    },
+    "monetaire": {
+      "valeur": {
+        "risque": "faible",
+        "capital_garanti": false,
+        "rendement_garanti": false,
+        "liquidite": "quelques jours",
+        "horizon_conseille": 1,
+        "rendement_scenarios": {
+          "prudent": 0.01,
+          "central": 0.02,
+          "dynamique": 0.025
+        }
+      },
+      "unite": "caractéristiques et rendements annuels bruts",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false
+    },
+    "obligations": {
+      "valeur": {
+        "risque": "moyen",
+        "capital_garanti": false,
+        "rendement_garanti": false,
+        "liquidite": "quelques jours",
+        "horizon_conseille": 3,
+        "rendement_scenarios": {
+          "prudent": 0.0,
+          "central": 0.03,
+          "dynamique": 0.045
+        }
+      },
+      "unite": "caractéristiques et rendements annuels bruts",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false
+    },
+    "actions_diversifiees": {
+      "valeur": {
+        "risque": "élevé",
+        "capital_garanti": false,
+        "rendement_garanti": false,
+        "liquidite": "quelques jours",
+        "horizon_conseille": 5,
+        "rendement_scenarios": {
+          "prudent": -0.02,
+          "central": 0.05,
+          "dynamique": 0.08
+        }
+      },
+      "unite": "caractéristiques et rendements annuels bruts",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false,
+      "note": "Le scénario prudent suppose une mauvaise période : le capital peut baisser"
+    }
+  },
+  "enveloppes": {
+    "livret_a": {
+      "valeur": {
+        "supports": [
+          "livret"
+        ],
+        "frais_versement": 0.0,
+        "frais_gestion_annuels": 0.0,
+        "plafond_versements": "livret_a_plafond_versements"
+      },
+      "unite": "caractéristiques",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false
+    },
+    "ldds": {
+      "valeur": {
+        "supports": [
+          "livret"
+        ],
+        "frais_versement": 0.0,
+        "frais_gestion_annuels": 0.0,
+        "plafond_versements": "ldds_plafond_versements"
+      },
+      "unite": "caractéristiques",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false
+    },
+    "assurance_vie": {
+      "valeur": {
+        "supports": [
+          "fonds_euros",
+          "monetaire",
+          "obligations",
+          "actions_diversifiees"
+        ],
+        "frais_versement": 0.01,
+        "frais_gestion_annuels": 0.007,
+        "plafond_versements": null
+      },
+      "unite": "caractéristiques et frais",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false
+    },
+    "pea": {
+      "valeur": {
+        "supports": [
+          "monetaire",
+          "actions_diversifiees"
+        ],
+        "frais_versement": 0.0,
+        "frais_gestion_annuels": 0.002,
+        "plafond_versements": "pea_plafond_versements"
+      },
+      "unite": "caractéristiques et frais",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false,
+      "note": "Les supports monétaires éligibles au PEA sont rares : simplification du projet"
+    },
+    "per": {
+      "valeur": {
+        "supports": [
+          "fonds_euros",
+          "obligations",
+          "actions_diversifiees"
+        ],
+        "frais_versement": 0.01,
+        "frais_gestion_annuels": 0.008,
+        "plafond_versements": null
+      },
+      "unite": "caractéristiques et frais",
+      "source": "Hypothèse du projet, à ajuster",
+      "date_verification": "2026-11-27",
+      "a_verifier": false,
+      "note": "Sommes bloquées jusqu'à la retraite, sauf cas de déblocage anticipé"
+    }
+  }
+}
